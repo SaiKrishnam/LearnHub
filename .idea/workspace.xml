@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18302cb6-6638-4410-9c5d-3e70e04722f8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="18302cb6-6638-4410-9c5d-3e70e04722f8" name="Default" comment="" />
     <ignored path="LearnHub.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +21,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.35103244">
+            <state vertical-scroll-proportion="2.2452831">
               <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
               <folding />
             </state>
@@ -83,16 +81,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.3469388">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#984#989#0" expanded="false" />
-                <element signature="e#5033#5042#0" expanded="false" />
-                <element signature="e#9151#9156#0" expanded="false" />
-                <element signature="e#12745#12749#0" expanded="false" />
+                <element signature="e#985#990#0" expanded="false" />
+                <element signature="e#5034#5043#0" expanded="false" />
+                <element signature="e#9152#9157#0" expanded="false" />
+                <element signature="e#12746#12750#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -146,10 +144,10 @@
         <option value="$PROJECT_DIR$/public/templates/partial-bookmarks.ejs" />
         <option value="$PROJECT_DIR$/public/templates/partial-mainpage.ejs" />
         <option value="$PROJECT_DIR$/public/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/css/style.css" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -234,24 +232,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearnHub" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -420,10 +400,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
           <folding>
-            <element signature="e#984#989#0" expanded="false" />
-            <element signature="e#5033#5042#0" expanded="false" />
-            <element signature="e#9151#9156#0" expanded="false" />
-            <element signature="e#12745#12749#0" expanded="false" />
+            <element signature="e#985#990#0" expanded="false" />
+            <element signature="e#5034#5043#0" expanded="false" />
+            <element signature="e#9152#9157#0" expanded="false" />
+            <element signature="e#12746#12750#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -481,10 +461,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="225" column="0" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
           <folding>
-            <element signature="e#984#989#0" expanded="false" />
-            <element signature="e#5033#5042#0" expanded="false" />
-            <element signature="e#9151#9156#0" expanded="false" />
-            <element signature="e#12745#12749#0" expanded="false" />
+            <element signature="e#985#990#0" expanded="false" />
+            <element signature="e#5034#5043#0" expanded="false" />
+            <element signature="e#9152#9157#0" expanded="false" />
+            <element signature="e#12746#12750#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -542,10 +522,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
-            <element signature="e#984#989#0" expanded="false" />
-            <element signature="e#5033#5042#0" expanded="false" />
-            <element signature="e#9151#9156#0" expanded="false" />
-            <element signature="e#12745#12749#0" expanded="false" />
+            <element signature="e#985#990#0" expanded="false" />
+            <element signature="e#5034#5043#0" expanded="false" />
+            <element signature="e#9152#9157#0" expanded="false" />
+            <element signature="e#12746#12750#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -579,10 +559,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#984#989#0" expanded="false" />
-            <element signature="e#5033#5042#0" expanded="false" />
-            <element signature="e#9151#9156#0" expanded="false" />
-            <element signature="e#12745#12749#0" expanded="false" />
+            <element signature="e#985#990#0" expanded="false" />
+            <element signature="e#5034#5043#0" expanded="false" />
+            <element signature="e#9152#9157#0" expanded="false" />
+            <element signature="e#12746#12750#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -647,10 +627,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#984#989#0" expanded="false" />
-            <element signature="e#5033#5042#0" expanded="false" />
-            <element signature="e#9151#9156#0" expanded="false" />
-            <element signature="e#12745#12749#0" expanded="false" />
+            <element signature="e#985#990#0" expanded="false" />
+            <element signature="e#5034#5043#0" expanded="false" />
+            <element signature="e#9152#9157#0" expanded="false" />
+            <element signature="e#12746#12750#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -722,10 +702,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#984#989#0" expanded="false" />
-            <element signature="e#5033#5042#0" expanded="false" />
-            <element signature="e#9151#9156#0" expanded="false" />
-            <element signature="e#12745#12749#0" expanded="false" />
+            <element signature="e#985#990#0" expanded="false" />
+            <element signature="e#5034#5043#0" expanded="false" />
+            <element signature="e#9152#9157#0" expanded="false" />
+            <element signature="e#12746#12750#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -792,19 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#984#989#0" expanded="false" />
-            <element signature="e#5033#5042#0" expanded="false" />
-            <element signature="e#9151#9156#0" expanded="false" />
-            <element signature="e#12745#12749#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -847,9 +814,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.35103244">
+        <state vertical-scroll-proportion="2.2452831">
           <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3469388">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#985#990#0" expanded="false" />
+            <element signature="e#5034#5043#0" expanded="false" />
+            <element signature="e#9152#9157#0" expanded="false" />
+            <element signature="e#12746#12750#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
