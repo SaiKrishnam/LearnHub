@@ -1,0 +1,39 @@
+
+<div ng-controller="bookmarksCtrl">
+    <h1>Bookmarked</h1>
+
+    <div class="panel panel-default coursePanel" ng-repeat="course in bookmarkedBooks track by $index">
+
+        <div class="panel-heading">
+            <div class="row">
+                <div class="col-md-6 fontTitle">
+                    {{course.title}}
+                </div>
+            </div>
+            <h3 class="panel-title"></h3>
+        </div>
+
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-7">
+                    <p class="descriptionFont">{{course.description}}</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                    <p class="btn btn-success">${{course.price}}</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="btn btn-success">{{course.type}}</p>
+                </div>
+            </div>
+
+
+</div>
+
+    </div>
+</div>

@@ -1,0 +1,97 @@
+body {
+  /*padding: 50px;*/
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#lt{
+width:30%;
+height:500px;
+background-color: #87D37C;
+}
+
+nav.navbar.navbar-default{
+  margin-bottom: 0px;
+}
+
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  width: 300px;
+  height: 600px;
+  background-color: lightgrey;
+  margin-left: 10px;
+  border-right:2px inset gray;
+}
+
+.flex-item {
+  /*background-color: cornflowerblue;*/
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+
+.mainContainer .col-md-2{
+  padding-left:0px;
+  width:320px;
+}
+
+.mainContainer .col-md-2 .flex-container{
+  margin-left:0px;
+}
+
+.mainContainer .col-md-9 {
+  /*width:1000px;*/
+  height:600px;
+  background-color: #ECF0F1;
+  border-top: 1px solid gray;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.scrolling{
+ overflow: scroll;
+}
+.scrolling p{
+  margin-bottom:2px;
+}
+
+.coursePanel{
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.fontTitle{
+  font-family: 'Oswald', sans-serif;
+  font-size: 130%;
+}
+
+.descriptionFont{
+  font-family: 'Dosis', sans-serif;
+}
+.footer{
+  height:60px;
+  background-color: #D24D57;
+}
+.footercontainer{
+.
+}
+.learnhub{
+  color: black;
+  text-decoration: none;
+}
+
+.bottomnavbar{
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: #95A5A6;;
+}

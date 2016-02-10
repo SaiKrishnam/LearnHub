@@ -1,0 +1,109 @@
+<div class="container-fluid mainContainer">
+    <div class="row">
+        <div class="col-md-2  leftAside nopadding">
+
+            <div class="flex-container">
+
+                <div class="flex-item">
+                    <h3>Category</h3>
+                    {{categorySelected}}
+                    <div>
+                        <input type="checkbox"   ng-checked="categorySelected === 'OS'" ng-true-value="'OS'" ng-false-value="''" ng-model="categorySelected">OS<br>
+                        <input type="checkbox"   ng-checked="categorySelected === 'Web'" ng-true-value="'Web'" ng-false-value="''" ng-model="categorySelected">Web Development<br>
+                        <input type="checkbox"   ng-checked="categorySelected === 'Android'" ng-true-value="'Android'" ng-false-value="''" ng-model="categorySelected">Android<br>
+                        <input type="checkbox"   ng-checked="categorySelected === 'SE'" ng-true-value="'SE'" ng-false-value="''" ng-model="categorySelected">Software Engineering<br>
+                        <input type="checkbox"   ng-checked="categorySelected === ''" ng-true-value="''" ng-false-value="''" ng-model="categorySelected">Other<br>
+                    </div>
+
+
+                    <!--<input type="submit" value="Submit">-->
+                    <!--<div class="checkbox">-->
+                        <!--<label>-->
+                            <!--<input type="checkbox"> Check me out-->
+                        <!--</label>-->
+                        <!--<label>-->
+                            <!--<input type="checkbox"> Check me out-->
+                        <!--</label>-->
+                    <!--</div>-->
+                </div>
+
+                <div class="flex-item">
+                    <h3>Sort By</h3>
+                    Price: <input type="radio" name="sort" id="myRadio" ng-model="sortby" value="price">
+                    Rating: <input type="radio" name="sort" id="myRadio" ng-model="sortby" value="rating">
+                    None: <input type="radio" name="sort" id="myRadio" ng-model="sortby" value="">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="col-md-9 nopadding scrolling">
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Search" ng-model="searchText">
+                </div>
+            </div>
+
+            <div class="panel panel-default coursePanel" ng-repeat="course in coursesFormDB | filter:searchText |filter:{category:categorySelected}|orderBy:sortby  ">
+
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-md-6 fontTitle">
+                            {{course.title}}
+                        </div>
+                    </div>
+                    <h3 class="panel-title"></h3>
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-7">
+                            <p class="descriptionFont">{{course.description}}</p>
+                        </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4">
+                            <p class="btn btn-success">${{course.price}}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="btn btn-success">{{course.type}}</p>
+                        </div>
+                </div>
+
+                <!--<div class="row">-->
+                        <!--<div class="col-md-4">-->
+                        <!--</div>-->
+                        <!--<div class="col-md-7">-->
+                            <!--<p class="btn btn-info">{{course.type}}</p>-->
+                        <!--</div>-->
+                <!--</div>-->
+
+                    <div class="row">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-7">
+                            <button type="button" class="btn btn-default btn-sm" ng-click="clickedBookmark(course)" ng-class="{'btn-danger':isClicked}">
+                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span>Bookmark
+                            </button>
+                        </div>
+                    </div>
+
+            </div>
+
+        </div>
+
+
+        </div>
+    </div>
+
+</div>
+</div>
