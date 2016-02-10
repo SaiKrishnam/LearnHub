@@ -70,6 +70,32 @@ nav.navbar.navbar-default{
   margin-top:10px;
   margin-bottom:10px;
 }
+
+@font-face {
+  font-family: "Dosis";
+  src: url('../fonts/Dosis-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url('../fonts/Oswald-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Glyph";
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+}
+
+/*@font-face {*/
+  /*font-family: "Glyph";*/
+  /*src: url('../fonts/glyphicons-halflings-regular.woff');*/
+/*}*/
+
+/*@font-face {*/
+  /*font-family: "Glyph";*/
+  /*src: url('../fonts/glyphicons-halflings-regular.woff2');*/
+/*}*/
+
 .fontTitle{
   font-family: 'Oswald', sans-serif;
   font-size: 130%;
@@ -95,3 +121,4 @@ nav.navbar.navbar-default{
   margin-top: 15px;
   color: #95A5A6;;
 }
+
