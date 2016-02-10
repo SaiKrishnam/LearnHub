@@ -233,30 +233,30 @@ var c= new Course({
 
 
 
-c1.save(function (err, c1) {
-    if (err) return console.error(err);
-    console.log("success");
-});
-
-
-c2.save(function (err, c2) {
-    if (err) return console.error(err);
-    console.log("success");
-});
-
-c3.save(function (err, c3) {
-    if (err) return console.error(err);
-    console.log("success");
-});
-
-c4.save(function (err, c4) {
-    if (err) return console.error(err);
-    console.log("success");
-});
-c5.save(function (err, c5) {
-    if (err) return console.error(err);
-    console.log("success");
-});
+//c1.save(function (err, c1) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
+//
+//
+//c2.save(function (err, c2) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
+//
+//c3.save(function (err, c3) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
+//
+//c4.save(function (err, c4) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
+//c5.save(function (err, c5) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
 
 
 /* GET home page. */
