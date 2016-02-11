@@ -3,11 +3,9 @@ var router = express.Router();
 
 // DATABASE CONNECTION
 var mongoose = require('mongoose');
-//var localhost = 'mongodb://localhost/names';
+var localhost = 'mongodb://localhost/names';
 var mongoURI = 'mongodb://heroku_9nzlstmm:9u9ltiisdagrjntseqgd23u4nu@ds061405.mongolab.com:61405/heroku_9nzlstmm' ;
-
-//mongoose.connect(process.env.MONGOLAB_URI);
-mongoose.connect(mongoURI);
+mongoose.connect(mongoURI || localhost );
 
 
 var db = mongoose.connection ;
@@ -44,7 +42,7 @@ var c= new Course({
     "rating":0
 });
 
-//WEB
+////WEB
 //var c1= new Course({
 //    "title": "Web Design with HTML, CSS, JavaScript and jQuery Set 1st Edition",
 //    "price": 33.95,
@@ -139,7 +137,7 @@ var c= new Course({
 //    "rating":4.5
 //});
 
-// OS
+ //OS
 //var c1= new Course({
 //    "title": "Operating Systems: Principles and Practice 2nd Edition",
 //    "price": 70,
@@ -186,72 +184,72 @@ var c= new Course({
 //});
 
 //SE
-var c1= new Course({
-    "title": "Beginning Software Engineering 1st Edition",
-    "price": 37.99,
-    "type": "Beginner",
-    "category": "SE",
-    "description":"Beginning Software Engineering demystifies the software engineering methodologies and techniques that professional developers use to design and build robust, efficient, and consistently reliable software. Free of jargon and assuming no previous programming, development, or management experience, this accessible guide explains important concepts and techniques that can be applied to any programming language. Each chapter ends with exercises that let you test your understanding and help you elaborate on the chapter's main concepts. Everything you need to understand waterfall, Sashimi, agile, RAD, Scrum, Kanban, Extreme Programming, and many other development models is inside!",
-    "rating":3.8
-});
-var c2= new Course({
-    "title": "Software Engineering (10th Edition) 10th Edition",
-    "price": 164,
-    "type": "Intermediate",
-    "category": "SE",
-    "description":"Software Engineering introduces readers to the overwhelmingly important subject of software programming and development. In the past few years, computer systems have come to dominate not just our technological growth, but the foundations of our world’s major industries. This text seeks to lay out the fundamental concepts of this huge and continually growing subject area in a clear and comprehensive manner.",
-    "rating":3.5
-});
-var c3= new Course({
-    "title": "Soft Skills: The software developer's life manual 1st Edition",
-    "price": 33,
-    "type": "Beginner",
-    "category": "SE",
-    "description":"For most software developers, coding is the fun part. The hard bits are dealing with clients, peers, and managers, staying productive, achieving financial security, keeping yourself in shape, and finding true love. This book is here to help.",
-    "rating":2
-});
-var c4= new Course({
-    "title": "Software Engineering: A Practitioner's Approach 8th Edition",
-    "price": 185,
-    "type": "Advanced",
-    "category": "SE",
-    "description":"The eighth edition of Software Engineering: A Practitioner's Approach has been designed to consolidate and restructure the content introduced over the past two editions of the book. The chapter structure will return to a more linear presentation of software engineering topics with a direct emphasis on the major activities that are part of a generic software process. Content will focus on widely used software engineering methods and will de-emphasize or completely eliminate discussion of secondary methods, tools and techniques. The intent is to provide a more targeted, prescriptive, and focused approach, while attempting to maintain SEPA's reputation as a comprehensive guide to software engineering.",
-    "rating":4.2
-});
-var c5= new Course({
-    "title": "Clean Code: A Handbook of Agile Software Craftsmanship 1st Edition",
-    "price": 34,
-    "type": "Intermediate",
-    "category": "SE",
-    "description":"Clean Code is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code—of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and “smells” gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code",
-    "rating":3.8
-});
+//var c1= new Course({
+//    "title": "Beginning Software Engineering 1st Edition",
+//    "price": 37.99,
+//    "type": "Beginner",
+//    "category": "SE",
+//    "description":"Beginning Software Engineering demystifies the software engineering methodologies and techniques that professional developers use to design and build robust, efficient, and consistently reliable software. Free of jargon and assuming no previous programming, development, or management experience, this accessible guide explains important concepts and techniques that can be applied to any programming language. Each chapter ends with exercises that let you test your understanding and help you elaborate on the chapter's main concepts. Everything you need to understand waterfall, Sashimi, agile, RAD, Scrum, Kanban, Extreme Programming, and many other development models is inside!",
+//    "rating":3.8
+//});
+//var c2= new Course({
+//    "title": "Software Engineering (10th Edition) 10th Edition",
+//    "price": 164,
+//    "type": "Intermediate",
+//    "category": "SE",
+//    "description":"Software Engineering introduces readers to the overwhelmingly important subject of software programming and development. In the past few years, computer systems have come to dominate not just our technological growth, but the foundations of our world’s major industries. This text seeks to lay out the fundamental concepts of this huge and continually growing subject area in a clear and comprehensive manner.",
+//    "rating":3.5
+//});
+//var c3= new Course({
+//    "title": "Soft Skills: The software developer's life manual 1st Edition",
+//    "price": 33,
+//    "type": "Beginner",
+//    "category": "SE",
+//    "description":"For most software developers, coding is the fun part. The hard bits are dealing with clients, peers, and managers, staying productive, achieving financial security, keeping yourself in shape, and finding true love. This book is here to help.",
+//    "rating":2
+//});
+//var c4= new Course({
+//    "title": "Software Engineering: A Practitioner's Approach 8th Edition",
+//    "price": 185,
+//    "type": "Advanced",
+//    "category": "SE",
+//    "description":"The eighth edition of Software Engineering: A Practitioner's Approach has been designed to consolidate and restructure the content introduced over the past two editions of the book. The chapter structure will return to a more linear presentation of software engineering topics with a direct emphasis on the major activities that are part of a generic software process. Content will focus on widely used software engineering methods and will de-emphasize or completely eliminate discussion of secondary methods, tools and techniques. The intent is to provide a more targeted, prescriptive, and focused approach, while attempting to maintain SEPA's reputation as a comprehensive guide to software engineering.",
+//    "rating":4.2
+//});
+//var c5= new Course({
+//    "title": "Clean Code: A Handbook of Agile Software Craftsmanship 1st Edition",
+//    "price": 34,
+//    "type": "Intermediate",
+//    "category": "SE",
+//    "description":"Clean Code is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code—of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and “smells” gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code",
+//    "rating":3.8
+//});
 
 
-c1.save(function (err, c1) {
-    if (err) return console.error(err);
-    console.log("success");
-});
-
-
-c2.save(function (err, c2) {
-    if (err) return console.error(err);
-    console.log("success");
-});
-
-c3.save(function (err, c3) {
-    if (err) return console.error(err);
-    console.log("success");
-});
-
-c4.save(function (err, c4) {
-    if (err) return console.error(err);
-    console.log("success");
-});
-c5.save(function (err, c5) {
-    if (err) return console.error(err);
-    console.log("success");
-});
+//c1.save(function (err, c1) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
+//
+//
+//c2.save(function (err, c2) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
+//
+//c3.save(function (err, c3) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
+//
+//c4.save(function (err, c4) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
+//c5.save(function (err, c5) {
+//    if (err) return console.error(err);
+//    console.log("success");
+//});
 
 
 /* GET home page. */

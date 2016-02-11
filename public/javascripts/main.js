@@ -21,6 +21,8 @@ app.controller('mainPageCtrl',['$scope','$http','bookmarkService',function($scop
         $scope.coursesFormDB = res.data;
     });
     $scope.clickedBookmark=function(course){
+        $scope.isActive = !$scope.isActive ;
+        console.log($scope.isActive);
         bookmarkService.bookmarkedArray.push(course);
         console.log(bookmarkService.bookmarkedArray);
     };
