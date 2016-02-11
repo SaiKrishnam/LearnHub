@@ -4,7 +4,7 @@ var router = express.Router();
 // DATABASE CONNECTION
 var mongoose = require('mongoose');
 //var localhost = 'mongodb://localhost/names';
-var mongoURI = 'mongodb://<dbuser>:<dbpassword>@ds061405.mongolab.com:61405/heroku_9nzlstmm' ;
+var mongoURI = 'mongodb://<heroku_9nzlstmm>:<sachinRock1>@ds061405.mongolab.com:61405/heroku_9nzlstmm' ;
 mongoose.connect(mongoURI);
 
 var db = mongoose.connection ;
