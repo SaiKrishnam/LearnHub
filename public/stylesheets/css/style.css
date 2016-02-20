@@ -108,12 +108,10 @@ nav.navbar.navbar-default{
   height:60px;
   background-color: #D24D57;
 }
-.footercontainer{
-.
-}
+
 .learnhub{
   color: black;
-  text-decoration: none;
+  text-decoration: none!important ;
 }
 
 .bottomnavbar{
@@ -121,4 +119,10 @@ nav.navbar.navbar-default{
   margin-top: 15px;
   color: #95A5A6;;
 }
+.homepage{
 
+}
+.image{
+  padding-left: 35px;
+
+}

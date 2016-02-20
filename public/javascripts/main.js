@@ -55,6 +55,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
 
         })
 
+        .state('home', {
+            url: '/',
+            templateUrl: '../templates/partial-homepage.ejs'
+            // we'll get to this in a bit
+
+        })
 
 });
 
